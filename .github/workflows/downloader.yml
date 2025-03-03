@@ -1,4 +1,4 @@
-- uses: robinraju/release-downloader@v1
+uses: robinraju/release-downloader@v1
   with:
     # The source repository path.
     # Expected format {owner}/{repo}
