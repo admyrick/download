@@ -1,0 +1,30 @@
+            - name: release-downloader
+  # You may pin to the exact commit or the version.
+  # uses: robinraju/release-downloader@a96f54c1b5f5e09e47d9504526e96febd949d4c2
+  uses: robinraju/release-downloader@v1.11
+  with:
+    # The source repository path. Expected format {owner}/{repo}
+    repository: # optional, default is ${{ github.repository }}
+    # A flag to choose between latest release and remaining releases
+    latest: # optional, default is false
+    # A flag to download from prerelease. It should be combined with latest flag
+    preRelease: # optional, default is false
+    # The github tag to download the release from
+    tag: # optional, default is 
+    # Name of the file to download (use '*' to download all assets other than tarball or zipball)
+    fileName: # optional, default is 
+    # Download tarball from assets
+    tarBall: # optional, default is false
+    # Download zipball from assets
+    zipBall: # optional, default is false
+    # Relative path under $GITHUB_WORKSPACE to place the downloaded files
+    out-file-path: # default is .
+    # If the downloaded assets should be extracted to `out-file-path`. Supports tar, tar.gz and zip
+    extract: # optional, default is false
+    # Github token to access private repos
+    token: # optional, default is ${{ github.token }}
+    # The URL of the Github API, only use this input if you are using Github Enterprise
+    github-api-url: # optional, default is https://api.github.com
+    # The release id to download the file from
+    releaseId: # optional, default is 
+          
