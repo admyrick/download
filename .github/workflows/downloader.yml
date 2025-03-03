@@ -1,4 +1,4 @@
-            - name: release-downloader
+- name: release-downloader
   # You may pin to the exact commit or the version.
   # uses: robinraju/release-downloader@a96f54c1b5f5e09e47d9504526e96febd949d4c2
   uses: robinraju/release-downloader@v1.11
