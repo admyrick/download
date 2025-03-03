@@ -1,9 +1,9 @@
 uses: robinraju/release-downloader@v1
-  with:
+ with:
     # The source repository path.
     # Expected format {owner}/{repo}
     # Default: ${{ github.repository }}
-    repository: ''
+   repository: ''
 
     # A flag to set the download target as latest release
     # The default value is 'false'
